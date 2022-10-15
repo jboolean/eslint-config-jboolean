@@ -1,8 +1,9 @@
 module.exports = {
   "extends": [
     'eslint:recommended',
-    "plugin:prettier/recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:prettier/recommended",
   ],
   "parser": "@typescript-eslint/parser",
   "plugins": [
@@ -18,6 +19,13 @@ module.exports = {
       { "allowExpressions": true }
     ],
     "no-use-before-define": "off",
-    "@typescript-eslint/no-use-before-define": "warn"
+    "@typescript-eslint/no-use-before-define": "warn",
+    "@typescript-eslint/unbound-method": "off",
+    "@typescript-eslint/no-misused-promises": [
+      "error",
+      {
+        "checksVoidReturn": false
+      }
+    ]
   }
 }
