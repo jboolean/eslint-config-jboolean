@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-jboolean",
+  "version": "1.0.0",
+  "description": "Eslint config by Julian Boilen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/parser": "5.x",
+    "typescript": "^4"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "eslint": "8.x",
+    "@typescript-eslint/eslint-plugin": "5.x",
+    "eslint-config-prettier": "8.x",
+    "eslint-plugin-prettier": "4.x",
+    "eslint-plugin-react": "7.x"
+  }
+}
