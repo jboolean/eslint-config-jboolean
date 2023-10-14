@@ -37,5 +37,8 @@
   },
   "np": {
     "tests": false
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
