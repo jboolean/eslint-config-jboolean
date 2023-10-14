@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jboolean",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Eslint config by Julian Boilen",
   "main": "index.js",
   "scripts": {
