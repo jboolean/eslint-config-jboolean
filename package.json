@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@typescript-eslint/parser": "6.x",
+    "@typescript-eslint/parser": "8.x",
     "typescript": "^5.2.2"
   },
   "devDependencies": {
