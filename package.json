@@ -4,7 +4,7 @@
   "description": "Eslint config by Julian Boilen",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node test/config.test.js",
     "publish": "np"
   },
   "keywords": [
@@ -20,18 +20,18 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "8.x",
     "eslint": "9.x",
-    "eslint-config-prettier": "8.x",
-    "eslint-plugin-prettier": "4.x",
+    "eslint-config-prettier": "10.x",
+    "eslint-plugin-prettier": "5.x",
     "eslint-plugin-react": "7.x",
-    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-hooks": "7.x",
     "np": "^10.2.0",
     "prettier": "3.x"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "8.x",
     "eslint": "9.x",
-    "eslint-config-prettier": "8.x",
-    "eslint-plugin-prettier": "4.x",
+    "eslint-config-prettier": "10.x",
+    "eslint-plugin-prettier": "5.x",
     "eslint-plugin-react": "7.x",
     "eslint-plugin-react-hooks": "7.x"
   },

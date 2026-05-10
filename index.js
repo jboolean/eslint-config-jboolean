@@ -1,14 +1,16 @@
 module.exports = {
   "extends": [
     'eslint:recommended',
-    "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:@typescript-eslint/recommended-type-checked",
     "plugin:prettier/recommended",
   ],
   "parser": "@typescript-eslint/parser",
   "plugins": [
     "@typescript-eslint"
   ],
+  "parserOptions": {
+    "projectService": true
+  },
   "settings": {
   },
   "rules": {
